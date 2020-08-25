@@ -9,6 +9,12 @@ import "./ContractSix.sol";
 import "./ContractSeven.sol";
 
 contract ContractOne is ContractTwo, ContractThree, ContractFour, ContractFive, ContractSix, ContractSeven {
+  uint public myInt;
+  
   constructor() public {
+  }
+
+  function set(uint newInt) public {
+    myInt = newInt;
   }
 }
