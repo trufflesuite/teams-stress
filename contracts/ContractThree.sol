@@ -2,6 +2,12 @@
 pragma solidity >= 0.5.0 < 0.7.0;
 
 contract ContractThree {
+  uint public myInt;
+
   constructor() public {
+  }
+
+  function set(uint newInt) public {
+    myInt = newInt;
   }
 }

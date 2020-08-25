@@ -17,5 +17,10 @@ contract ContractOne is ContractTwo, ContractThree, ContractFour, ContractFive, 
   function set(uint newInt) public {
     myInt = newInt;
     ContractTwo.set(newInt);
+    ContractThree.set(newInt);
+    ContractFour.set(newInt);
+    ContractFive.set(newInt);
+    ContractSix.set(newInt);
+    ContractSeven.set(newInt);
   }
 }
