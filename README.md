@@ -1,4 +1,4 @@
-# Teams Stress 😱😱
+# Teams Stress 😱
 
 A [Truffle](https://trufflesuite.com/) project designed to "stress out" Truffle Teams...specifically the debugger (for now) in the following ways:
 
